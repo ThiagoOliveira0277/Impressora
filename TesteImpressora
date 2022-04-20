@@ -1,0 +1,15 @@
+public class TesteImpressora {
+    public static void main(String[] args) {
+        
+        int a = 1, b = 2;
+        String c = "3", d = "4", e = "5";
+        float f = 6, g = 7;
+        
+        Impressora im = new Impressora();
+        
+        float resFloat = im.exibir(a);
+        
+        
+    }
+    
+}
